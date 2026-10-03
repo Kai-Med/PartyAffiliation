@@ -1,6 +1,7 @@
 void main() {
+  Scanner in = new Scanner(System.in);
   System.out.println("Enter your political affiliation (D, R, I, or Other):");
-  String affiliation = "W";
+  String affiliation = in.nextLine();
   if (affiliation.equals("D")) {
     System.out.println("You get a Democratic Donkey.");
   } else if (affiliation.equals("R")) {
